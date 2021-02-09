@@ -1,0 +1,62 @@
+body.main {
+    background-color: #ffb5b5;
+    color: #00000073;
+}
+body.discord {
+    background-color: #c3b5ff;
+    color: #00000073;
+}
+body.twitter {
+    background-color: #99ebff;
+    color: #00000073;
+}
+body.youtube {
+    background-color: #ff6b6b;
+    color: #00000073;
+}
+body.github {
+    background-color: #8a8a8a;
+    color: #00000073;
+}
+table {
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    width: 32%;
+    padding: 0.3%;
+    font-family: sans-serif;
+    
+}
+h1, h2, h3, h4, a {
+    text-align: center;
+    font-family: sans-serif;
+    color: #00000073;
+}
+div.a {
+    margin: auto;
+    width: 80%;
+    border: 3px solid #00000073;
+    padding: 5%;
+}
+div.b {
+    margin: auto;
+    width: 80%;
+    border: 3px solid #00000073;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+div.embed {
+    margin: auto;
+    text-align: center;
+}
+div.embed2 {
+    margin: auto;
+    width: 55%;
+    border: 3px solid #00000073;
+    padding: 3%;
+    font-family: sans-serif;
+    color: #00000073;
+}
