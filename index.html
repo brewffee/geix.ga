@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://kit.fontawesome.com/b0a29d08ad.js" crossorigin="anonymous"></script>
+		<script>
+			const trade = (toHide, toShow, displayType) => {
+				toHide.style.display = 'none';
+				document.getElementById(toShow).style.display = displayType || 'block';
+			}
+		</script>
+		<title>♡ geixcowo.ga</title>
+	</head>
+	<body>
+		<header>
+			<p onclick="window.location.href='http://geixcowo.ga'">geixcowo.ga</p>
+		</header>
+		<div class=intro>
+			<h1>welcome!</h1>
+			<p>welcome to my brand new website!<br /><br />
+			you can view the source code at my <a href="http://github.com/geix-ily">github</a></p>
+		</div>	
+		<div class=socials>
+			<div id=socials-m class=socials-m>
+				<i class='fab fa-github fa-6x' onclick="trade(this.parentElement, 'github', 'flex')"></i>
+				<i class='fab fa-twitter fa-6x' onclick="trade(this.parentElement, 'twitter', 'flex')"></i>
+				<i class='fab fa-discord fa-6x' onclick="trade(this.parentElement, 'discord', 'flex')"></i>
+				<i class='fab fa-youtube fa-6x' onclick="trade(this.parentElement, 'youtube', 'flex')"></i>
+				<i class='fab fa-twitch fa-6x' onclick="trade(this.parentElement, 'twitch', 'flex')"></i>
+				<i class='fab fa-steam fa-6x' onclick="trade(this.parentElement, 'steam', 'flex')"></i>
+				<i class='fab fa-telegram fa-6x' onclick="trade(this.parentElement, 'telegram', 'flex')"></i>
+			</div>
+			<div id=twitter class=item style="flex-direction: column;">
+				<span>twitter</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div class=i-important onclick="window.open('https://twitter.com/geix_ily')">
+						<span class=sub> main </span>
+						<i class='fab fa-twitter fa-6x'></i>
+						<span class=sub> @geix_ily </span>
+					</div>
+					<div class=i onclick="window.open('https://twitter.com/nyaageix')">
+						<span class=sub> alt </span>
+						<i class='fab fa-twitter fa-6x'></i>
+						<span class=sub> @nyaageix </span>
+					</div>
+					<div class=i  onclick="window.open('https://twitter.com/geixad_')">
+						<span class=tag> NSFW </span>
+						<span class=sub> nsfw </span>
+						<i class='fab fa-twitter fa-6x'></i>
+						<span class=sub> @geixad_ </span>
+					</div>
+				</div>
+			</div>
+			<div id=discord class=item style="flex-direction: column;">
+				<span>discord</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div id=tag-card class=i-important onclick="window.navigator.clipboard.writeText('geix ♡#6834'); trade(this, 'tag-copied', 'flex'); setTimeout(() => {trade(this.parentElement.children[1], 'tag-card', 'flex')}, 2000)">
+						<span class=sub> account </span>
+						<i class='fab fa-discord fa-6x'></i>
+						<span class=sub> geix ♡#6834 </span>
+					</div>
+					<div id=tag-copied class=i-important style="display: none; justify-content: center;" onclick="trade(this, 'tag-card', 'flex')">
+						<span class=sub> copied to clipboard! </span>
+					</div>
+					<div class=i onclick="window.open('http://discord.gg/FZ5HUuJvvW')">
+						<span class=sub> server </span>
+						<!-- 64x64 div -->
+						<div style="border-radius: 16px; margin: 24px; width: 96px; height: 96px; background: url(https://cdn.discordapp.com/icons/840829256506146818/ff87aa5f11752bb5f23126aa28d9e630.gif?size=96);"></div>
+						<span class=sub> ♡ geix's lounge ♡ </span>
+						<span class=evenmoresub> dsc.gg/geix </span>
+					</div>
+				</div> 
+			</div>
+			<div id=youtube class=item style="flex-direction: column;">
+				<span>youtube</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div class=i-important onclick="window.open('https://www.youtube.com/channel/UC9jxCcERd-y6TzMpb4qVMxQ')">
+						<span class=sub> channel </span>
+						<i class='fab fa-youtube fa-6x'></i>
+						<span class=sub> geix_ </span>
+					</div>
+					<div class=i onclick="window.open('https://www.youtube.com/watch?v=UO8q8tXotmg')">
+						<span class=sub> recommended </span>
+						<div style="border-radius: 4px; margin: 24px; width: 256px; height: 132px; background: url(https://i.ytimg.com/vi_webp/UO8q8tXotmg/maxresdefault.webp); background-size: cover;"></div>
+						<span class=sub> 50 SUB SPECIAL</span>
+					</div>
+				</div>
+			</div>
+			<div id=twitch class=item style="flex-direction: column;">
+				<span>twitch</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div class=i-important onclick="window.open('https://www.twitch.tv/geix_')">
+						<span class=sub> channel </span>
+						<i class='fab fa-twitch fa-6x'></i>
+						<span class=sub> geix_ </span>
+					</div>
+					<div id=desc class=i>
+						<span class=sub> i don't stream often (or at all), so you should check out my youtube instead! </span>
+					</div>
+				</div>
+			</div>
+			<div id=steam class=item style="flex-direction: column;">
+				<span>steam</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div class=i-important onclick="window.open('https://steamcommunity.com/id/geix_ily/')">
+						<span class=sub> account </span>
+						<i class='fab fa-steam fa-6x'></i>
+						<span class=sub> geix ♡ </span>
+					</div>
+					<div class=i onclick="window.open('https://steamcommunity.com/id/geix_ily/games/?tab=all')">
+						<span class=sub> library </span>
+						<i class="fas fa-th-list fa-6x"></i>
+						<span class=sub> 31 games </span>
+					</div>
+				</div>
+			</div>
+			<div id=telegram class=item style="flex-direction: column;">
+				<span>telegram</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div class=i-important onclick="window.open('https://t.me/geix_ily')">
+						<span class=sub> message me :3 </span>
+						<i class='fab fa-telegram fa-6x'></i>
+						<span class=sub> @geix_ily </span>
+					</div>
+				</div>
+			</div>
+			<div id=github class=item style="flex-direction: column;">
+				<span>github</span>
+				<span class=return onclick="trade(this.parentElement, 'socials-m')"> go back </span>
+				<div style="display: flex; flex-direction: row;">
+					<div class=i-important onclick="window.open('https://github.com/geix-ily')">
+						<span class=sub> account </span>
+						<i class='fab fa-github fa-6x'></i>
+						<span class=sub> geix-ily </span>
+					</div>
+					<!-- feature my create-shortcut-nemo-action and geixcowo.ga repos -->
+					<div class=i onclick="window.open('https://github.com/geix-ily/create-shortcut-nemo-action/')">
+						<span class=sub> create-shortcut-nemo-action </span>
+						<i class="fas fa-code fa-6x"></i>
+						<span class=sub> python </span>
+					</div>
+					<div class=i onclick="window.open('https://github.com/geix-ily/geixcowo.ga/')">
+						<span class=sub> geixcowo.ga </span>
+						<i class="fas fa-code fa-6x"></i>
+						<span class=sub> html, css </span>
+					</div>
+				
+				</div>
+			</div>
+		</div>	
+		<div class=content>
+			<!--<button> geix_ily.github.io </button>-->
+			<button onclick="window.location.href='./old/gamemen.html'"> .ga/gamemen </button>
+			<button onclick="window.location.href='./uwu.html'""> .ga/uwu [NSFW] </button>
+			<button onclick="window.location.href='./goods.html'""> .ga/goods [NSFW] [REDIRECT] </button>
+		</div>
+		<div class=footer>
+			<span class=footer-t> geixcowo.ga </span>
+			<span> made with <i class="fas fa-heart"></i> by geix_ily </span>
+		</div>
+	<body>
+</html>
